@@ -2,6 +2,9 @@
 - hosts: all
   become: true
   tasks:
+    # 1 timezone and NTP server
+    # 2 network ip/mask/gateway/dns
+    #    
     #    - name: update packages
     #      dnf:
     #        name: '*'
